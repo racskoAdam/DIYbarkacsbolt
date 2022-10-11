@@ -9,5 +9,14 @@
 1. https://unsplash.com/photos/NL_DF0Klepc
 1. https://unsplash.com/photos/5nUNdLueQio
 1. https://unsplash.com/photos/Kmemh0uyLEk
-
-
+## Hivatkozások - Ikonok
+1. https://www.svgrepo.com/vectors/location/
+1. https://www.svgrepo.com/vectors/at/
+1. https://www.svgrepo.com/vectors/email/
+1. https://www.svgrepo.com/vectors/truck/
+1. https://www.svgrepo.com/vectors/construction-worker/
+1. https://www.svgrepo.com/svg/217874/tools-axe
+1. https://www.svgrepo.com/svg/131187/tools
+1. https://www.svgrepo.com/svg/271177/paypal
+1. https://www.svgrepo.com/svg/328141/mastercard
+1. https://www.svgrepo.com/svg/266099/visa
