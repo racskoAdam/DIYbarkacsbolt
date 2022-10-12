@@ -27,6 +27,10 @@ p {
 .header {
   width: 80%;
 }
+.banner
+{
+    margin-top: 300px;
+}
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Montserrat;
@@ -36,28 +40,6 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.3
 }
 
-.container {
-  padding: 0 20px;
-  margin: 0 auto
-}
-
-.container:after,
-.container:before {
-  content: " ";
-  display: table
-}
-
-.container:after {
-  clear: both
-}
-
-.intro h1 {
-  color: #000;
-}
-
-.intro h1 strong {
-  color: #ffd300
-}
 
 
 /* - link under - */
@@ -123,7 +105,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .link-theme:before {
-  background: #ffd300
+  background: #ec8020
 }
 
 @media only screen and (min-width:250px) {
@@ -202,21 +184,23 @@ h1,h2,h3,h4,h5,h6 {
 /* header   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
 
 .header {
-  background-color: #fff;
+  background-color: #000;
   position: fixed;
-  width: 80%;
+  width: 100%;
   z-index: 3;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 20px 0;
-}
 
+  padding: 20px 20px;
+}
+.fasz
+{
+    height: 100px;
+}
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .header li a {
@@ -227,7 +211,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #fff;
+  background-color: #000;
+  color: #ec8020;
 }
 
 .header .logo {
@@ -237,6 +222,10 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 2em;
   padding: 2px 0px;
   text-decoration: none;
+}
+.logo1{
+    width: auto;
+    height: 60px;
 }
 
 /* menu */
@@ -252,9 +241,9 @@ h1,h2,h3,h4,h5,h6 {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
+  float: right;
   user-select: none;
 }
 
@@ -341,6 +330,4 @@ h1,h2,h3,h4,h5,h6 {
   .section-split a {
     width: 50%;
   }
-}
-
-
+}}
