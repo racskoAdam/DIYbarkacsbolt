@@ -3,6 +3,15 @@
   font-family: Montserrat;
 }
 
+
+.carouselimg{
+  height: 400px;
+  width: 500px;
+}
+.carouselcustom{
+  padding-top: 5rem;
+}
+
 html {
   color: #222;
   font-size: 1em;
