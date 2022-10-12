@@ -9,6 +9,12 @@
 1. https://unsplash.com/photos/NL_DF0Klepc
 1. https://unsplash.com/photos/5nUNdLueQio
 1. https://unsplash.com/photos/Kmemh0uyLEk
+1. https://pixabay.com/hu/photos/faipari-t%c3%a1bl%c3%a1k-term%c3%a9szet-fa-919668/
+1. https://pixabay.com/hu/photos/deszka-t%c3%a1bla-fal-faipari-anyag-1977/
+1. https://pixabay.com/hu/photos/faipari-t%c3%a1bl%c3%a1k-strukt%c3%bara-fa-barna-2045379/
+1. https://pixabay.com/hu/photos/padl%c3%b3-parkett-minta-faipari-1866663/
+1. https://pixabay.com/hu/photos/kem%c3%a9nyfa-faipari-t%c3%b6lgy-f%c5%b1r%c3%a9sz%c3%a1ru-1846842/
+1. https://pixabay.com/hu/photos/padl%c3%b3-faipari-parkett%c3%a1s-fadeszk%c3%a1k-1256804/
 ## Hivatkozások - Ikonok
 1. https://www.svgrepo.com/vectors/location/
 1. https://www.svgrepo.com/vectors/at/
