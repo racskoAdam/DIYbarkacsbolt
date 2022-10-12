@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>proba
+    </title>
+    <style>
+        td{
+            width: 5rem;
+            height:5rem;
+            border: 1px solid black;
+        }
+        table{
+            background-color: brown;
+            margin: auto;
+        }
+        #d1id{
+            background-color: gray;
+            margin: 2rem 1rem 2rem ;
+            padding: 1rem;  
+
+        }
+        #d1id button{
+            float: right;   
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <tr>
+                <td onclick="d1()"></td>
+                <td onclick="d2()"></td>
+                <td onclick="d3()"></td>
+                <td onclick="d4()"></td>
+                <td onclick="d5()"></td>
+                <td onclick="d6()"></td>
+                <td onclick="d7()"></td>
+                <td onclick="d8()"></td>
+                <td onclick="d9()"></td>
+            </tr>
+        </table>
+        <div id="d1id">
+
+        </div>
+        <script>
+            function d1(){
+                let kep=document.createElement("img");
+                kep.src="1.jpg";
+                let div = document.getElementById("d1id");
+                let btn = document.createElement("button");
+                btn.innerHTML = "Close";
+                btn.onclick = function () {
+                    div.removeChild(kep);
+                    div.removeChild(btn);
+
+                };
+                div.appendChild(btn);
+                div.appendChild(kep);
+            }
+            function d2(){
+                let kep=document.createElement("img");
+                kep.src="2.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+            function d3(){
+                let kep=document.createElement("img");
+                kep.src="3.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+            function d4(){
+                let kep=document.createElement("img");
+                kep.src="4.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+            function d5(){
+                let kep=document.createElement("img");
+                kep.src="5.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+            function d6(){
+                let kep=document.createElement("img");
+                kep.src="6.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+            function d7(){
+                let kep=document.createElement("img");
+                kep.src="7.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+            function d8(){
+                let kep=document.createElement("img");
+                kep.src="8.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+            function d9(){
+                let kep=document.createElement("img");
+                kep.src="9.jpg";
+                let div = document.getElementById("d1id");
+                div.appendChild(kep);
+            }
+        </script>
+        <div id="asd"></div>
+    </div>
+</body>
+</html>
