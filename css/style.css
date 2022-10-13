@@ -182,7 +182,6 @@ a {
   display: inline-block;
   padding: 28px 20px;
   position: relative;
-  float: right;
   user-select: none;
 }
 
@@ -321,6 +320,9 @@ color: #ec8020;
   list-style-type: none;
 
 }
+.jobbra{
+  float: right;
+}
 .festekkep{
   height: 366px;
   width: 366px;
@@ -335,4 +337,7 @@ color: #ec8020;
 
 .kerekit{
   border-radius: 15px;
+}
+footer table{
+width: 100%;
 }
