@@ -26,3 +26,5 @@
 1. https://www.svgrepo.com/svg/271177/paypal
 1. https://www.svgrepo.com/svg/328141/mastercard
 1. https://www.svgrepo.com/svg/266099/visa
+1.https://www.svgrepo.com/svg/56030/package
+1.https://www.svgrepo.com/svg/403643/heavy-check-mark
