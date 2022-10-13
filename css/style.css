@@ -6,10 +6,10 @@
 
 .carouselimg{
   height: 400px;
-  width: 500px;
+  object-fit: cover;
 }
 .carouselcustom{
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 html {
