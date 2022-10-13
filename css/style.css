@@ -321,16 +321,17 @@ color: #ec8020;
   list-style-type: none;
 
 }
-.festekkep{
-  height: 366px;
-  width: 366px;
-}
+
 
 .bgcustom{
   background-color: black;
   text-align:center;
   color: #ec8020;
   font-weight: bold;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+
 }
 
 .kerekit{
