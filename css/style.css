@@ -300,6 +300,7 @@ text-align: right;
 footer{
 background-color: black;
 color: #ec8020;
+max-width: 100%;
 }
 
 .paymentoptions{
