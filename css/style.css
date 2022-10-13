@@ -111,31 +111,13 @@ a {
   .container {
     width: 80%;
   }
-  .footer {
-    padding: 70px 0
-  }
-  .footer ul {
-    margin-top: 15px
-  }
-  .footer ul li {
-    display: inline-block;
-    margin: 0 0 0 10px
-  }
- 
-  .footer .foot-content-left {
-    float: left
-  }
-  .footer .foot-content {
-    float: right
-  }
+  
 }
 
 @media only screen and (min-width:992px) {
   .container {
     width: 100%;
   }
-
-
 }
 
 
@@ -312,4 +294,38 @@ text-align: right;
 .offerbg{
   border-radius: 10px;
   background-color: #d9d9d9;
+  padding: 10px;
+}
+
+footer{
+background-color: black;
+color: #ec8020;
+}
+
+.paymentoptions{
+  width: 300px;
+  padding-top:6px;
+}
+.left{
+  padding-left: 300px;
+}
+.floatright{
+  float:right;
+  text-align: right;
+  
+}
+.font-weight-bold{
+  font-weight:bold;
+}
+.anyad{
+  list-style-type: none;
+
+}
+.festekkep{
+  height: 366px;
+  width: 366px;
+}
+
+.bgcustom{
+  background-color: black;
 }
