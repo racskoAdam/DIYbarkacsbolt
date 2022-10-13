@@ -302,6 +302,7 @@ text-align: right;
 footer{
 background-color: black;
 color: #ec8020;
+width: inherit;
 max-width: 100%;
 }
 
@@ -345,7 +346,4 @@ max-width: 100%;
 
 .kerekit{
   border-radius: 15px;
-}
-footer table{
-width: 100%;
 }
