@@ -328,4 +328,11 @@ color: #ec8020;
 
 .bgcustom{
   background-color: black;
+  text-align:center;
+  color: #ec8020;
+  font-weight: bold;
+}
+
+.kerekit{
+  border-radius: 15px;
 }
