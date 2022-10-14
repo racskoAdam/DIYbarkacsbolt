@@ -88,6 +88,7 @@ function load(){
 
     let row = document.createElement("div");
     row.classList.add("row");
+    row.classList.add("mb-5");
     adat.forEach(item => {
         let name = item.nev;
         let image = item.keplink;
