@@ -10,11 +10,14 @@ html {
   font-size: 1em;
   line-height: 1.5;
   box-sizing: border-box
+
 }
 
 body {
   margin: 0;
 }
+
+
 
 a {
   color: #777;
@@ -299,6 +302,7 @@ text-align: right;
 footer{
 background-color: black;
 color: #ec8020;
+width: inherit;
 max-width: 100%;
 }
 
