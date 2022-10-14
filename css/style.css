@@ -458,3 +458,41 @@ width: 100%;
 .sorkizaras{
   text-align: justify;
 }
+
+
+
+
+
+
+
+
+td{
+  width: 5rem;
+  height:5rem;
+  border: 1px solid black;
+}
+table{
+  background-color: brown;
+  margin: auto;
+}
+#d1id{
+  background-color: gray;
+  margin: 2rem 1rem 2rem ;
+  padding: 1rem;
+  height: 10rem;  
+}
+#d1id button{
+  float: right;   
+}
+#d1id img{
+  height: 10rem;
+  width: 10rem;
+  float: left;
+  padding-right: 2rem;
+}
+#szoveg{
+  padding: 2rem;
+}
+#container td:hover{
+  border: 5px solid black;
+}
