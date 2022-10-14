@@ -346,3 +346,7 @@ max-width: 100%;
 footer table{
 width: 100%;
 }
+
+.itemspage{
+  padding-top: 10rem;
+}
