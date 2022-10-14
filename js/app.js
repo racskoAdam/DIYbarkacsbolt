@@ -1,10 +1,68 @@
+const data ={
+    "faanyagok":[
+        {
+            "id": 0,
+            "nev": "ASD deszka",
+            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
+            "ar": "4500 Ft"
+        },
+        {
+            "id": 0,
+            "nev": "ASD deszka",
+            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
+            "ar": "4500 Ft"
+        },
+        {
+            "id": 0,
+            "nev": "ASD deszka",
+            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
+            "ar": "4500 Ft"
+        },
+        {
+            "id": 0,
+            "nev": "ASD deszka",
+            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
+            "ar": "4500 Ft"
+        },
+        {
+            "id": 0,
+            "nev": "ASD deszka",
+            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
+            "ar": "4500 Ft"
+        },
+    ],
 
-$('a').click(function(e){
-    e.preventDefault();
-    $('body, html').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top - 120
-    }, 1000);
+    "szerszamok":[
+        {
+
+        }
+    ]
+}
+
+let container = document.getElementById("items");
+
+let row = document.createElement("div");
+row.classList.add("row");
+data.faanyagok.forEach(item => {
+    let name = item.nev;
+    let image = item.keplink;
+    let price = item.ar;
+            //kártya meghatározása
+            let card =`
+            <div class="card aru">
+              <img src="%IMG%" class="card-img-top" alt="image">
+              <div class="card-body">
+                <p class="card-title">%NAME%</p>
+                <p class="card-text">%PRICE%</p>
+              </div>
+            </div>
+            `;
+    card = card.replace("%NAME%",name); //%NAME%" kicserélése a cardban name változóra
+    card = card.replace("%IMG%",image); //%IMG%" kicserélése a cardban image változóra
+    card = card.replace("%PRICE%",price); //%IMG%" kicserélése a cardban image változóra
+    let asd = document.createElement("div");
+    asd.classList.add("col-md-3");
+    asd.innerHTML = card;
+    row.append(asd)
+    container.append(row);
 });
-
-
-
