@@ -16,6 +16,8 @@
 1. https://pixabay.com/hu/photos/kem%c3%a9nyfa-faipari-t%c3%b6lgy-f%c5%b1r%c3%a9sz%c3%a1ru-1846842/
 1. https://pixabay.com/hu/photos/padl%c3%b3-faipari-parkett%c3%a1s-fadeszk%c3%a1k-1256804/
 1. https://unsplash.com/photos/46juD4zY1XA
+1. https://unsplash.com/photos/pfSNx3Z12K8
+1. https://unsplash.com/photos/_Yc7OtfFn-0
 
 
 ## Hivatkozások - Ikonok
