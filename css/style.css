@@ -345,3 +345,10 @@ max-width: 100%;
 .kerekit{
   border-radius: 15px;
 }
+footer table{
+width: 100%;
+}
+
+.itemspage{
+  padding-top: 10rem;
+}
