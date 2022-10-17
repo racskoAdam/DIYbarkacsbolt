@@ -657,3 +657,11 @@ border: 1px solid black;
 .postbutton:hover{
   background-color: #a55a16;
 }
+
+.szinvalaszto{
+  width:1440px;
+  height:100px;
+  background: #ec8020;
+  padding-top: 5rem;
+ 
+}
