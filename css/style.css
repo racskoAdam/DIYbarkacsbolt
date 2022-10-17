@@ -651,6 +651,6 @@ border: 1px solid black;
   min-width: 6rem;
 }
 
-
-
-
+.cikk{
+  border-radius: 30px;
+}

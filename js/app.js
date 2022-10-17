@@ -73,19 +73,22 @@ const data ={
     ],
     "bolgpostok":[
         {
-            "title": "asd3",
-            "text": "asdasdasdasd",
-            "date": "2022.9.15",
-        },
-        {
-            "title": "asd1",
-            "text": "asdasdasdasd",
-            "date": "2021.10.17",
+            "title": "Szeretné kifesteni az otthonát?",
+            "text": "Ha egy kis frissességet, változatosságot szeretnénk varázsolni megfáradt otthonunkba, vagy ha új lakásba költözünk, a szobafestés gondolata mindenképpen felmerül bennünk többször életünk folyamán.",
+            "date": new Date(2023, 5, 7),
+            "link": "blogpost1.html",
         },
         {
             "title": "asd2",
+            "text": "asdasdasd",
+            "date": new Date(2001, 9, 11),
+            "link": "blogpost2.html",
+        },
+        {
+            "title": "asd3",
             "text": "asdasdasdasd",
-            "date": "2022.3.17",
+            "date": new Date(2077, 1, 1),
+            "link": "blogpost3.html",
         }
     ]
 }
@@ -101,6 +104,10 @@ switch (page) {
     case "szerszamok.html":
         adat = data.szerszamok;
         load();
+        break;
+        case "blog.html":
+        adat = data.bolgpostok;
+        loadblog();
         break;
     default:
         break;
@@ -138,20 +145,37 @@ function load(){
 }
 
 function loadblog(){
-    document.getElementById("articles").innerHTML = "";
-    let sort = document.getElementById("inputGroupSelect01").value;
-    let postok = data.bolgpostok;
-    switch (sort) {
-        case "date:asc":
-            postok.sort((a,b) => a.date- b.date);
-            break;
+    let articles = document.getElementById('articles');
+    let sortby = document.getElementById("inputGroupSelect01").value;
+    switch (sortby) {
         case "date:desc":
-
+            adat = adat.sort(
+                (objA, objB) => Number(objB.date) - Number(objA.date),
+            );
+            break;
+            case "date:asc":
+                adat = adat.sort(
+                    (objA, objB) => Number(objA.date) - Number(objB.date),
+                );
             break;
         default:
             break;
     }
-    
+    articles.innerHTML = "";
+
+    adat.forEach(item => {
+        let cikk = document.createElement("div");
+        cikk.classList.add("card", "cikk", "my-3");
+        cikk.innerHTML = `<div class="card-body">
+                                <h5 class="card-title">`+item.title+`</h5>
+                                <p class="card-text">
+                                `+item.text+`
+                                </p>
+                                <h5 class="card-title">`+item.date.getFullYear() + "." + item.date.getMonth() + "." + item.date.getDate() + `</h5>
+                                <a href="`+item.link+`" class="btn btn-primary">Elolvasom</a>
+                        </div>`;
+        articles.append(cikk);
+    });
 }
 
 
