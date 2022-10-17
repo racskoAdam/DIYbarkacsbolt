@@ -12,6 +12,9 @@ html {
 
 body {
   margin: 0;
+  /* background-image: url("../media/img/footer/nokia-espionage.gif");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 a {
@@ -285,6 +288,8 @@ a {
   padding: 50px 0;
   color: #ec8020;
   background-color: black;
+
+
 }
 
 .footer-dark h3 {
