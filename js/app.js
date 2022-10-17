@@ -3,40 +3,46 @@ const data ={
     "faanyagok":[
         {
             "id": 0,
-            "nev": "ASD deszka",
+            "nev": "ASDWood™ Ébenfa",
             "keplink":"../media/img/faanyag/ebenfa-min.jpg",
-            "ar": "4500 Ft"
+            "ar": "6500 Ft"
         },
         {
             "id": 0,
-            "nev": "ASD deszka",
-            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
-            "ar": "4500 Ft"
+            "nev": "ASDWood™ Sötét Tölgy",
+            "keplink":"../media/img/faanyag/floor-1256804_1920-min.jpg",
+            "ar": "7500 Ft"
         },
         {
             "id": 0,
-            "nev": "ASD deszka",
-            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
-            "ar": "4500 Ft"
+            "nev": "ASDWood™ Préri Dió",
+            "keplink":"../media/img/faanyag/floor-1866663_1920-min.jpg",
+            "ar": "6000 Ft"
         },
         {
             "id": 0,
-            "nev": "ASD deszka",
-            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
-            "ar": "4500 Ft"
+            "nev": "ASDWood™ Gesztenye",
+            "keplink":"../media/img/faanyag/wood-919668_1920-min.jpg",
+            "ar": "6500 Ft"
         },
         {
             "id": 0,
-            "nev": "ASD deszka",
-            "keplink":"../media/img/faanyag/ebenfa-min.jpg",
-            "ar": "4500 Ft"
+            "nev": "ASDWood™ Préselt Mix",
+            "keplink":"../media/img/faanyag/plank-1977_1920-min.jpg",
+            "ar": "4000 Ft"
+        },
+        {
+            "id": 0,
+            "nev": "ASDWood™ Hegyesi Bükk",
+            "keplink":"../media/img/faanyag/wood-2045379_1920-min.jpg",
+            "ar": "6000 Ft"
         },
     ],
 
     "szerszamok":[
         {
             "id": 0,
-            "nev": "ASD furó",
+            "nev": "ASD",
             "keplink":"../media/img/szerszamok/baltak-min.png",
             "ar": "4500 Ft"
         },
@@ -267,3 +273,9 @@ else if(nyitvatartasnap>=1&&nyitvatartasnap<=5&&nyitvatartasora>7&&nyitvatartaso
 else if(nyitvatartasnap>=1&&nyitvatartasnap<=5&&nyitvatartasora==20&&nyitvatartasora<=30)
 {document.getElementById("nyitvatartas").innerHTML="Nyitva";xdhaha.classList.add("nyitva");}
 else{document.getElementById("nyitvatartas").innerHTML="Zárva";xdhaha.classList.add("zarva");}
+
+
+
+
+
+// COLOR PICKER
