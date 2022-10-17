@@ -436,13 +436,7 @@ footer table {
   text-align: justify;
 }
 
-td {
-  width: 5rem;
-  height: 5rem;
-  border: 1px solid black;
-}
 table {
-  background-color: brown;
   margin: auto;
 }
 
@@ -457,8 +451,9 @@ td{
 }
 
 
-#container td:hover {
-  border: 5px solid black;
+td:hover {
+  transform: scale(1.15);
+  transition-duration: 100ms;
 }
 
 
