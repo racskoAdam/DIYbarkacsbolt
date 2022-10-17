@@ -436,7 +436,6 @@ footer table {
   text-align: justify;
 }
 
-<<<<<<< HEAD
 td {
   width: 5rem;
   height: 5rem;
@@ -446,45 +445,18 @@ table {
   background-color: brown;
   margin: auto;
 }
-#d1id {
-  background-color: gray;
-  margin: 2rem 1rem 2rem;
-  padding: 1rem;
-  height: 10rem;
-=======
-
-
-
-
-
 
 
 td{
   width: 7rem;
   height: 7rem;
 }
-table{
-  margin: auto;
+.float-right
+{
+  float:right;
 }
-#d1id{
-  margin: 2rem 1rem 2rem ;
-  padding: 1rem;
-  height: 17rem;  
->>>>>>> b029b98b6cca9ebc5db8565f41c93f3c530b1bc8
-}
-#d1id button {
-  float: right;
-}
-#d1id img {
-  height: 10rem;
-  width: 10rem;
-  float: left;
-  padding-right: 2rem;
-}
-<<<<<<< HEAD
-#szoveg {
-  padding: 2rem;
-}
+
+
 #container td:hover {
   border: 5px solid black;
 }
@@ -611,11 +583,7 @@ table{
   
 }
 
-=======
-#szoveg{
-  padding: 2rem 2rem 2rem 2rem;
-  margin: 0 auto;
-}
+
 
 .festek{
   overflow: hidden;
@@ -650,11 +618,15 @@ background-color: #0B10CE;
 background-color: #360158;  
 }
 #szinek{
-height: 15rem;
-width: 15rem;
+height: auto;
+width: auto;
 float: left;
 padding: 1rem;
 border: 1px solid black;
+}
+#szinek{
+  width:15rem;
+  height:15rem;
 }
 
 
@@ -674,4 +646,3 @@ border: 1px solid black;
   color: red;
   font-weight: bold;
 }
->>>>>>> b029b98b6cca9ebc5db8565f41c93f3c530b1bc8
