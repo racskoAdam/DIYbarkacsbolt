@@ -467,19 +467,16 @@ width: 100%;
 
 
 td{
-  width: 5rem;
-  height:5rem;
-  border: 1px solid black;
+  width: 7rem;
+  height: 7rem;
 }
 table{
-  background-color: brown;
   margin: auto;
 }
 #d1id{
-  background-color: gray;
   margin: 2rem 1rem 2rem ;
   padding: 1rem;
-  height: 10rem;  
+  height: 17rem;  
 }
 #d1id button{
   float: right;   
@@ -491,10 +488,8 @@ table{
   padding-right: 2rem;
 }
 #szoveg{
-  padding: 2rem;
-}
-#container td:hover{
-  border: 5px solid black;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 0 auto;
 }
 
 .festek{
@@ -502,6 +497,46 @@ table{
   width: 100%;
   height: inherit;
 }
+.d1c{
+background-color: #EC8020;
+}
+.d2c{
+background-color: #2596BE;  
+}
+.d3c{
+background-color: #76B5C5;  
+}
+.d4c{
+background-color: #C58676;  
+}
+.d5c{
+background-color: #A7C576;  
+}
+.d6c{
+background-color: #E83A3A;  
+}
+.d7c{
+background-color: #E6EC23;  
+}
+.d8c{
+background-color: #0B10CE;  
+}
+.d9c{
+background-color: #360158;  
+}
+#szinek{
+height: 15rem;
+width: 15rem;
+float: left;
+padding: 1rem;
+border: 1px solid black;
+}
+
+
+
+
+
+
 
 .nyitva{
   text-align: center;
