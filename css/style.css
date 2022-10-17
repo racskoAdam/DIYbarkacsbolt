@@ -496,3 +496,9 @@ table{
 #container td:hover{
   border: 5px solid black;
 }
+
+.festek{
+  overflow: hidden;
+  width: 100%;
+  height: inherit;
+}
