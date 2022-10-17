@@ -502,3 +502,15 @@ table{
   width: 100%;
   height: inherit;
 }
+
+.nyitva{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+.zarva{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}

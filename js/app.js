@@ -195,3 +195,21 @@ function bezar(){
     kep.src="";
     szoveg.innerHTML=""
 }
+
+
+
+//NYITVATARTAS
+let am=new Date();
+let nyitvatartasora=am.getHours();
+let nyitvatartasperc=am.getMinutes();
+let nyitvatartasnap=am.getDay();
+let xdhaha=document.getElementById("nyitvatartas");
+if(nyitvatartasnap==6&&nyitvatartasora>8&&nyitvatartasora<20)
+{document.getElementById("nyitvatartas").innerHTML="Nyitva";xdhaha.classList.add("nyitva");}
+else if(nyitvatartasnap>=1&&nyitvatartasnap<=5&&nyitvatartasora==7&&nyitvatartasperc>=30)
+{document.getElementById("nyitvatartas").innerHTML="Nyitva";xdhaha.classList.add("nyitva");}
+else if(nyitvatartasnap>=1&&nyitvatartasnap<=5&&nyitvatartasora>7&&nyitvatartasora<20)
+{document.getElementById("nyitvatartas").innerHTML="Nyitva";xdhaha.classList.add("nyitva");}
+else if(nyitvatartasnap>=1&&nyitvatartasnap<=5&&nyitvatartasora==20&&nyitvatartasora<=30)
+{document.getElementById("nyitvatartas").innerHTML="Nyitva";xdhaha.classList.add("nyitva");}
+else{document.getElementById("nyitvatartas").innerHTML="Zárva";xdhaha.classList.add("zarva");}
