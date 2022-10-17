@@ -648,3 +648,12 @@ border: 1px solid black;
 .cikk{
   border-radius: 30px;
 }
+
+.postbutton{
+  background-color: #EC8020;
+  border: none;
+}
+
+.postbutton:hover{
+  background-color: #a55a16;
+}
