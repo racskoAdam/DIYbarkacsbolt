@@ -436,6 +436,7 @@ footer table {
   text-align: justify;
 }
 
+<<<<<<< HEAD
 td {
   width: 5rem;
   height: 5rem;
@@ -450,6 +451,26 @@ table {
   margin: 2rem 1rem 2rem;
   padding: 1rem;
   height: 10rem;
+=======
+
+
+
+
+
+
+
+td{
+  width: 7rem;
+  height: 7rem;
+}
+table{
+  margin: auto;
+}
+#d1id{
+  margin: 2rem 1rem 2rem ;
+  padding: 1rem;
+  height: 17rem;  
+>>>>>>> b029b98b6cca9ebc5db8565f41c93f3c530b1bc8
 }
 #d1id button {
   float: right;
@@ -460,6 +481,7 @@ table {
   float: left;
   padding-right: 2rem;
 }
+<<<<<<< HEAD
 #szoveg {
   padding: 2rem;
 }
@@ -589,3 +611,67 @@ table {
   
 }
 
+=======
+#szoveg{
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 0 auto;
+}
+
+.festek{
+  overflow: hidden;
+  width: 100%;
+  height: inherit;
+}
+.d1c{
+background-color: #EC8020;
+}
+.d2c{
+background-color: #2596BE;  
+}
+.d3c{
+background-color: #76B5C5;  
+}
+.d4c{
+background-color: #C58676;  
+}
+.d5c{
+background-color: #A7C576;  
+}
+.d6c{
+background-color: #E83A3A;  
+}
+.d7c{
+background-color: #E6EC23;  
+}
+.d8c{
+background-color: #0B10CE;  
+}
+.d9c{
+background-color: #360158;  
+}
+#szinek{
+height: 15rem;
+width: 15rem;
+float: left;
+padding: 1rem;
+border: 1px solid black;
+}
+
+
+
+
+
+
+
+.nyitva{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+.zarva{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+>>>>>>> b029b98b6cca9ebc5db8565f41c93f3c530b1bc8
