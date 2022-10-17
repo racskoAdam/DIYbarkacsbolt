@@ -64,6 +64,23 @@ const data ={
             "keplink":"../media/img/szerszamok/baltak-min.png",
             "ar": "4500 Ft"
         },
+    ],
+    "bolgpostok":[
+        {
+            "title": "asd3",
+            "text": "asdasdasdasd",
+            "date": "2022.9.15",
+        },
+        {
+            "title": "asd1",
+            "text": "asdasdasdasd",
+            "date": "2021.10.17",
+        },
+        {
+            "title": "asd2",
+            "text": "asdasdasdasd",
+            "date": "2022.3.17",
+        }
     ]
 }
 //TERMÉKADATOK MEGHÍVÁSA
@@ -75,11 +92,10 @@ switch (page) {
         adat = data.faanyagok;
         load();
         break;
-        case "szerszamok.html":
-        console.log("szerszamok");
+    case "szerszamok.html":
         adat = data.szerszamok;
         load();
-            break;
+        break;
     default:
         break;
 }
@@ -115,6 +131,22 @@ function load(){
     });
 }
 
+function loadblog(){
+    document.getElementById("articles").innerHTML = "";
+    let sort = document.getElementById("inputGroupSelect01").value;
+    let postok = data.bolgpostok;
+    switch (sort) {
+        case "date:asc":
+            postok.sort((a,b) => a.date- b.date);
+            break;
+        case "date:desc":
+
+            break;
+        default:
+            break;
+    }
+    
+}
 
 
 

@@ -514,3 +514,7 @@ table{
   color: red;
   font-weight: bold;
 }
+
+.literselect{
+  min-width: 6rem;
+}
