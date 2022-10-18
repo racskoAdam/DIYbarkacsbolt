@@ -176,16 +176,8 @@ function loadblog() {
       item.text +
       `
                                 </p>
-                                <h5 class="card-title">` +
-      item.date.getFullYear() +
-      "." +
-      item.date.getMonth() +
-      "." +
-      item.date.getDate() +
-      `</h5>
-                                <a href="` +
-      item.link +
-      `" class="btn btn-primary postbutton">Elolvasom</a>
+                                <h5 class="card-title">`+item.date.getFullYear() + "." + item.date.getMonth() + "." + item.date.getDate() + `</h5>
+                                <a href="`+item.link+`" class="btn btn-primary postbutton">Elolvasom</a>
                         </div>`;
     articles.append(cikk);
   });
