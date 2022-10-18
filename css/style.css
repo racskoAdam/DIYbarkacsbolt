@@ -668,9 +668,6 @@ border: 1px solid black;
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 .szinvalaszto{
-  width:1440px;
-  height:100px;
+  height: 6rem;
   background: #ec8020;
-  padding-top: 5rem;
- 
 }
