@@ -449,6 +449,7 @@ table {
 td{
   width: 7rem;
   height: 7rem;
+  cursor: pointer;
 }
 .float-right
 {
@@ -676,3 +677,15 @@ border: 1px solid black;
   font-weight: bold;
   
 }
+
+.colorinput{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  height: 5rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
