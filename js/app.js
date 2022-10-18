@@ -42,33 +42,33 @@ const data = {
   szerszamok: [
     {
       id: 0,
-      nev: "ASD",
+      nev: "ASDTools™ Balta kiszerelés",
       keplink: "../media/img/szerszamok/baltak-min.png",
+      ar: "14500 Ft",
+    },
+    {
+      id: 0,
+      nev: "ASDTools™ Csavarhúzókészlet",
+      keplink: "../media/img/szerszamok/csavarhuzo-min.jpg",
+      ar: "2500 Ft",
+    },
+    {
+      id: 0,
+      nev: "ASDTools™ Csavarkulcskészlet",
+      keplink: "../media/img/szerszamok/csavarkulcs-min.jpg",
       ar: "4500 Ft",
     },
     {
       id: 0,
-      nev: "ASD furó",
-      keplink: "../media/img/szerszamok/baltak-min.png",
-      ar: "4500 Ft",
+      nev: "ASDTools™ FX-300 Furó",
+      keplink: "../media/img/szerszamok/furo-min.jpg",
+      ar: "14000 Ft",
     },
     {
       id: 0,
-      nev: "ASD furó",
-      keplink: "../media/img/szerszamok/baltak-min.png",
-      ar: "4500 Ft",
-    },
-    {
-      id: 0,
-      nev: "ASD furó",
-      keplink: "../media/img/szerszamok/baltak-min.png",
-      ar: "4500 Ft",
-    },
-    {
-      id: 0,
-      nev: "ASD furó",
-      keplink: "../media/img/szerszamok/baltak-min.png",
-      ar: "4500 Ft",
+      nev: "ASDTools™ FF Láncfűrész",
+      keplink: "../media/img/szerszamok/lancfuresz-min.jpg",
+      ar: "64500 Ft",
     },
   ],
   bolgpostok: [
