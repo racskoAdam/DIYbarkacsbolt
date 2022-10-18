@@ -12,6 +12,9 @@ html {
 
 body {
   margin: 0;
+  /* background-image: url("../media/img/footer/nokia-espionage.gif");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 a {
@@ -285,6 +288,8 @@ a {
   padding: 50px 0;
   color: #ec8020;
   background-color: black;
+
+
 }
 
 .footer-dark h3 {
@@ -661,4 +666,11 @@ border: 1px solid black;
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+}
+.szinvalaszto{
+  width:1440px;
+  height:100px;
+  background: #ec8020;
+  padding-top: 5rem;
+ 
 }

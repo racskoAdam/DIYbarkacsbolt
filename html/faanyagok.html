@@ -1,94 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>DIY barkácsbolt</title>
     <!-- CSS only -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <!-- JavaScript Bundle with Popper -->
-    
-
-</head>
-<body>
-    <header class="header ">
-      <a class="logo" href="../html/index.html"><img src="../media/Logo.PNG" alt="DIY Barkácsbolt" class="logo1"></a>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="../html/index.html"
+        ><img src="../media/Logo.PNG" alt="DIY Barkácsbolt" class="logo1"
+      /></a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
       <ul class="menu">
-        <li><a href="../html/termekek.html" class="link link-theme link-arrow">Termékek</a></li>
-        <li><a href="../html/rolunk.html" class="link link-theme link-arrow">Rólunk</a></li>
-        <li><a href="../html/blog.html" class="link link-theme link-arrow">Blog</a></li>
+        <li>
+          <a href="../html/termekek.html" class="link link-theme link-arrow"
+            >Termékek</a
+          >
+        </li>
+        <li>
+          <a href="../html/rolunk.html" class="link link-theme link-arrow"
+            >Rólunk</a
+          >
+        </li>
+        <li>
+          <a href="../html/blog.html" class="link link-theme link-arrow"
+            >Blog</a
+          >
+        </li>
       </ul>
-      
     </header>
-  
-
-
 
     <div class="container itemspage">
-        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="termekek.html">Termékek</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Faanyagok</li>
-            </ol>
-          </nav>
+      <nav
+        style="
+          --bs-breadcrumb-divider: url(
+            &#34;data:image/svg + xml,
+            %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='currentColor'/%3E%3C/svg%3E&#34;
+          );
+        "
+        aria-label="breadcrumb"
+      >
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="termekek.html">Termékek</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Faanyagok</li>
+        </ol>
+      </nav>
 
-          <div id="items"></div>
-
+      <div id="items"></div>
     </div>
-
-
-
 
     <div class="footer-dark">
       <footer>
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>Hivatkozásaink</h3>
-                      <ul>
-                          <li><a href="../html/index.html">Főoldal</a></li>
-                          <li><a href="../html/termekek.html">Termékek</a></li>
-                          <li><a href="../html/blog.html">Blogunk</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>Elérhetőségek</h3>
-                      <ul>
-                          <li><a href="telto:36305901404"><img src="../media/ikonok/mobile-svgrepo-com.svg" >+06 (30) 123 4567</a></li>
-                          <li><a href="mailto:pisti1231212@gmail.com"><img src="../media/ikonok/email-svgrepo-com.svg" > diybarkacsboltkft@gmail.com</a></li>
-                          <li><a href="https://www.google.com/maps/place/Mak%C3%B3,+Posta+u.+4,+6900/@46.214045,20.47493,17z/data=!3m1!4b1!4m5!3m4!1s0x4744f61cdf736d4f:0x8b0e446a25e48d3e!8m2!3d46.214045!4d20.47493 target_"><img src="../media/ikonok/location-svgrepo-com (1).svg" > 6900 Makó Posta utca 4-6.</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-md-6 item text">
-                      <h3>DIY Barkácsbolt</h3>
-                      <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                  </div>
-                  <div class="col-md-12 text-center">Partnerek:</div>
-                  <div class="col-md-12 text-center"><img src="../media/ikonok/mastercard-svgrepo-com.svg"><img src="../media/ikonok/paypal-svgrepo-com.svg"><img src="../media/ikonok/visa-svgrepo-com.svg"></div>
-              </div>
-              <p class="copyright">DIY BARKÁCSBOLT © 2022</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Hivatkozásaink</h3>
+              <ul>
+                <li><a href="../html/index.html">Főoldal</a></li>
+                <li><a href="../html/termekek.html">Termékek</a></li>
+                <li><a href="../html/blog.html">Blogunk</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Elérhetőségek</h3>
+              <ul>
+                <li>
+                  <a href="telto:36305901404"
+                    ><img src="../media/ikonok/mobile-svgrepo-com.svg" />+06
+                    (30) 123 4567</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:pisti1231212@gmail.com"
+                    ><img src="../media/ikonok/email-svgrepo-com.svg" />
+                    diybarkacsboltkft@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/place/Mak%C3%B3,+Posta+u.+4,+6900/@46.214045,20.47493,17z/data=!3m1!4b1!4m5!3m4!1s0x4744f61cdf736d4f:0x8b0e446a25e48d3e!8m2!3d46.214045!4d20.47493 target_"
+                    ><img src="../media/ikonok/location-svgrepo-com (1).svg" />
+                    6900 Makó Posta utca 4-6.</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>DIY Barkácsbolt</h3>
+              <p>
+                Praesent sed lobortis mi. Suspendisse vel placerat ligula.
+                Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis
+                tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel
+                in justo.
+              </p>
+            </div>
+            <div class="col-md-12 text-center">Partnerek:</div>
+            <div class="col-md-12 text-center">
+              <img src="../media/ikonok/mastercard-svgrepo-com.svg" /><img
+                src="../media/ikonok/paypal-svgrepo-com.svg"
+              /><img src="../media/ikonok/visa-svgrepo-com.svg" />
+            </div>
           </div>
+          <p class="copyright">DIY BARKÁCSBOLT © 2022</p>
+        </div>
       </footer>
-  </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <script src="../js/app.js"></script>
-</body>
+  </body>
 </html>
