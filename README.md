@@ -34,3 +34,16 @@
 1. https://www.svgrepo.com/svg/266099/visa
 1. https://www.svgrepo.com/svg/56030/package
 1. https://www.svgrepo.com/svg/403643/heavy-check-mark
+## Hivatkozások - Eszközök 
+1. TRELLO: https://trello.com/
+1. FIGMA: https://www.figma.com/
+1. OPTIMIZILLA: https://imagecompressor.com/
+1. HTML VALIDATOR: https://validator.w3.org/
+
+##Eszközök
+1. Visual Studio Code
+1. GNU Image Manipulation Program
+1. Google Chrome
+1. GitBash
+
+
