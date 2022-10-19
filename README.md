@@ -40,7 +40,7 @@
 1. OPTIMIZILLA: https://imagecompressor.com/
 1. HTML VALIDATOR: https://validator.w3.org/
 
-##Eszközök
+## Eszközök
 1. Visual Studio Code
 1. GNU Image Manipulation Program
 1. Google Chrome
